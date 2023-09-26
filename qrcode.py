@@ -1,9 +1,7 @@
 import qrcode
 
-# Mensagem que será exibida quando o QR code for lido
 mensagem = "Valeu por tudo!!! Ass Budah"
 
-# Crie o QR code
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_L,
